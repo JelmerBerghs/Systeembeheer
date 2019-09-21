@@ -114,6 +114,7 @@ AcceptEnv LANG LC_*
 # override default of no subsystems
 Subsystem	sftp	/usr/lib/openssh/sftp-server
 
+Port 22345
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
 #	X11Forwarding no
